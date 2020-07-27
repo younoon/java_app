@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE struts-config PUBLIC
+  "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+  "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+	<form-beans>
+		<form-bean name="loginform" type="struts_sample.LoginActionForm" />
+	</form-beans>
+	<action-mappings>
+		<action path="/action" name="loginform" type="struts_sample.LoginAction" input="/index.jsp">
+			<forward name="success" path="/menu.jsp" />
+		</action>
+	</action-mappings>
+	<message-resources parameter="resources.MessageResources" />
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames" value="validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+</struts-config>

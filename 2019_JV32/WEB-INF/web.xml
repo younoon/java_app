@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+  <servlet>
+    <servlet-name>r01</servlet-name>
+    <servlet-class>R01_Servlet</servlet-class>
+    <servlet-name>r06</servlet-name>
+    <servlet-class>R06_PDF_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>r01</servlet-name>
+    <url-pattern>/R01</url-pattern>
+    <servlet-name>r06</servlet-name>
+    <url-pattern>/R06</url-pattern>
+  </servlet-mapping>
+</web-app>

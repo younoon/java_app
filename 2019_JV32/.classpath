@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="lib" path="/Applications/Eclipse_4.7.3.app/Contents/tomcat/8/lib/mysql-connector-java-5.1.22-bin.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/itext-asian.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/itext-pdfa-5.4.4.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/itext-xtra-5.4.4.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/itextpdf-5.4.4.jar" sourcepath="/var/folders/0p/nm1pslx10m989c2kdq_x76940000gn/T/.org.sf.feeling.decompiler1574125706795/source/itextpdf-5.4.4-sources.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/servlet-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jasper.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/jsp-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/el-api.jar"/>
+	<classpathentry kind="var" path="TOMCAT_HOME/lib/annotations-api.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>
